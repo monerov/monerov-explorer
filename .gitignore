@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+*.*~
+*.user
+.idea/
+*.log
+*.orig
+tests/
+build/
+cmake-build-debug/
