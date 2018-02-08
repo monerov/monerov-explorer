@@ -108,7 +108,7 @@ form {
 }
 
 [type=radio]:checked ~ label {
-    background: #260682 ;
+    background: #3e287b ;
     border-bottom: 1px solid white;
     z-index: 2;
 }
