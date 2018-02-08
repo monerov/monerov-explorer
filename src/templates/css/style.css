@@ -84,7 +84,7 @@ form {
 }
 
 .tab label {
-    background: black;
+    background: #544387;
     padding: 10px;
     border: 1px solid #ccc;
     margin-left: -1px;
@@ -100,7 +100,7 @@ form {
     position: absolute;
     top: 28px;
     left: 0;
-    background: black;
+    background: #544387;
     right: 0;
     bottom: 0;
     padding: 20px;
@@ -108,7 +108,7 @@ form {
 }
 
 [type=radio]:checked ~ label {
-    background: #505050 ;
+    background: #260682 ;
     border-bottom: 1px solid white;
     z-index: 2;
 }
