@@ -1714,7 +1714,7 @@ namespace xmreg
                     {"blk_height"           , tx_blk_height_str},
                     {"tx_size"              , fmt::format("{:0.4f}",
                                                           static_cast<double>(txd.size) / 1024.0)},
-                    {"tx_fee"               , xmreg::xmr_amount_to_str(txd.fee, "{:0.12f}", true)},
+                    {"tx_fee"               , xmreg::xmr_amount_to_str(txd.fee, "{:0.11f}", true)},
                     {"blk_timestamp"        , blk_timestamp},
                     {"delta_time"           , age.first},
                     {"outputs_no"           , static_cast<uint64_t>(txd.output_pub_keys.size())},
@@ -2237,7 +2237,7 @@ namespace xmreg
             context["show_inputs"]   = show_key_images;
             context["inputs_no"]     = static_cast<uint64_t>(inputs.size());
             context["sum_mixin_xmr"] = xmreg::xmr_amount_to_str(
-                    sum_mixin_xmr, "{:0.12f}", false);
+                    sum_mixin_xmr, "{:0.11f}", false);
 
 
             uint64_t possible_spending  {0};
@@ -2253,7 +2253,7 @@ namespace xmreg
             }
 
             context["possible_spending"] = xmreg::xmr_amount_to_str(
-                    possible_spending, "{:0.12f}", false);
+                    possible_spending, "{:0.11f}", false);
 
             add_css_style(context);
 
@@ -5535,7 +5535,7 @@ namespace xmreg
                     {"tx_blk_height"         , tx_blk_height},
                     {"tx_size"               , fmt::format("{:0.4f}",
                                                            static_cast<double>(txd.size) / 1024.0)},
-                    {"tx_fee"                , xmreg::xmr_amount_to_str(txd.fee, "{:0.12f}", false)},
+                    {"tx_fee"                , xmreg::xmr_amount_to_str(txd.fee, "{:0.11f}", false)},
                     {"tx_version"            , static_cast<uint64_t>(txd.version)},
                     {"blk_timestamp"         , blk_timestamp},
                     {"blk_timestamp_uint"    , blk.timestamp},
