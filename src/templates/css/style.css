@@ -22,6 +22,10 @@ tr, li, #pages, .info {
     height: 22px;
 }
 
+#head_title {
+    padding-top: 15px;
+}
+
 #pages
 {
     margin-top: 15px;
