@@ -1,6 +1,6 @@
-# MoneroV-explorer
+# MoneroV Explorer
 
-The source code used for the monerovexplorer.com website. An implementation of a MoneroV blockchain explorer.
+The source code used for the [monerovexplorer.com](https://monerovexplorer.com) website. An implementation of a MoneroV blockchain explorer.
 Currently connected to the upcoming monerov daemon and showcases the MoneroV 1:10 blockchain ratio diffrence for all previous and
 live transactions on Monero mainnet.
 
